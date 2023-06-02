@@ -47,5 +47,25 @@ $ work_year         : num  2023 2023 2023 2023 2023 ...
  
 ```
 
+Next lets clean this dataset so we can analyze it further
+Lets check for missing or invalid values
+```R
+is.na(ds_salaries)
 
+work_year experience_level employment_type job_title salary salary_currency salary_in_usd employee_residence
+   [1,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+   [2,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+   [3,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+   [4,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+   [5,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+   [6,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+   [7,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+   [8,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+   [9,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+  [10,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+  [11,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
+  ```
+  False meaning R studio couldn't find any missing values so we can move on! If It came out as TRUE then R Studio is telling us we have missing values
+  
+  
 
