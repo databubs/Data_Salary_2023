@@ -22,7 +22,8 @@ This dataset contains 11 columns and they :
 2. Extract CSV to specific folder - My folder is called "Salary_Data"
 3. Open up R Studio Desktop and 
 4. setwd("C:/Users/Bobby/Desktop/Data_Salary") or import manually
-5. Get all the packages required such as 'Tidyverse', 'ggplot2', 
+5. Install packages required such as 'Tidyverse', 'ggplot2', 'dplyr', and 'table.data'
+
 
 
 # Process
