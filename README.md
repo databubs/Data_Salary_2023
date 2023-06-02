@@ -27,7 +27,7 @@ This dataset contains 11 columns and they :
 
 # Process
 
-Lets see the different variables we may see using head, str, and summary.
+Lets see the different variables and rows of our current data set by using str, head or even glimpse from the dplyr package!
 
 I started off with  str(ds_sarlies) to get a better understanding of the data.
 ```r
