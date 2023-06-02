@@ -3,8 +3,7 @@ My names Bobby and this is another case study that I will be anaylzing for you g
 You can follow me step by step or EMAIL me @CHIENG@LIVE.CA if you have any questions.
 
 # About the Data 
-About Dataset
-Data Science Job Salaries Dataset contains 11 columns, each are:
+This dataset contains 11 columns and they :
 
 1)  work_year: The year the salary was paid.
 2)  experience_level: The experience level in the job during the year
@@ -17,3 +16,6 @@ Data Science Job Salaries Dataset contains 11 columns, each are:
 9) remote_ratio: The overall amount of work done remotely
 10) company_location: The country of the employer's main office or contracting branch
 11) company_size: The median number of people that worked for the company during the year
+
+# Proccess Data
+D
