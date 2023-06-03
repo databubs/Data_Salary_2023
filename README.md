@@ -3,7 +3,7 @@ My names Bobby and this is another case study that I will be anaylzing for you g
 You can follow me step by step or EMAIL me @CHIENG@LIVE.CA if you have any questions.
 
 # About the Data 
-This dataset contains 11 columns and they :
+This dataset contains 11 columns and they are:
 
 1)  work_year: The year the salary was paid.
 2)  experience_level: The experience level in the job during the year
