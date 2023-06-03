@@ -65,7 +65,7 @@ work_year experience_level employment_type job_title salary salary_currency sala
   [10,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
   [11,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
   ```
-  False meaning R studio couldn't find any missing values so we can move on! If It came out as TRUE then R Studio is telling us we have missing values
+FALSE = No missing values while if it came out TRUE then we would have multiple
   
   
 
