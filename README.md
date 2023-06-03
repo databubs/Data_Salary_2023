@@ -18,7 +18,7 @@ This dataset contains 11 columns and they are:
 11) company_size: The median number of people that worked for the company during the year
 
 #  Data Set Up
-1. Download the CSV file from Kaggle
+1. Download the CSV file from Kaggle [Data Science Salary](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023)
 2. Extract CSV to specific folder - My folder is called "Salary_Data"
 3. Open up R Studio Desktop and 
 4. setwd("C:/Users/Bobby/Desktop/Data_Salary") or import manually
