@@ -78,11 +78,11 @@ ls(ds_salaries)
 [10] "salary_in_usd"      "work_year"         
 ```
 
-Lets group the data in seperate data frames that we want to plot
-I want to find out the highest paying salary with which job title so we should group them up
-
+Next we can group the data sets by job title and salary
 ```r
 salary_by_job <- aggregate(salary ~ job_title, data = ds_salaries, FUN = max)
 ```
-
-salary_by_job <- salary_by_job[order(salary_by_job$salary, decreasing = TRUE)
+We can sort this data by highest salary
+```r
+salary_by_job <- salary_by_job[order(salary_by_job$salary, decreasing = TRUE), ]
+```
