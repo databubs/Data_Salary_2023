@@ -65,7 +65,24 @@ work_year experience_level employment_type job_title salary salary_currency sala
   [10,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
   [11,]     FALSE            FALSE           FALSE     FALSE  FALSE           FALSE         FALSE              FALSE
   ```
-FALSE = No missing values while if it came out TRUE then we would have multiple
-  
-  
+As far as I understand, FALSE = no missing values
+TRUE = missing values
+We can move on
 
+Lets recheck our collums
+ls(ds_salaries)
+```r
+ [1] "company_location"   "company_size"       "employee_residence"
+ [4] "employment_type"    "experience_level"   "job_title"         
+ [7] "remote_ratio"       "salary"             "salary_currency"   
+[10] "salary_in_usd"      "work_year"         
+```
+
+Lets group the data in seperate data frames that we want to plot
+I want to find out the highest paying salary with which job title so we should group them up
+
+```r
+salary_by_job <- aggregate(salary ~ job_title, data = ds_salaries, FUN = max)
+```
+
+salary_by_job <- salary_by_job[order(salary_by_job$salary, decreasing = TRUE)
